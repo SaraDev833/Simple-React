@@ -1,0 +1,17 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .container {
+      @apply mx-auto lg:w-[1024px] lg:px-8 xl:px-16 xl:w-[1280px] md:px-4 sm:w-[640px] sm:px-3 2xl:w-[1536px] 2xl:px-[10];
+    }
+    /* Custom class for mobile devices */
+    @media (max-width: 639px) {
+      .mobile-container {
+        @apply mx-auto p-1; 
+        width: 80%;
+      }
+    }
+  } */
